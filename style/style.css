@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: rgb(13, 25, 43);
+}
+
+/*  font-family: 'Outfit', sans-serif; */
+
+hr{
+    border: 0;
+    clear:both;
+    display:block;
+    width: 85%;
+    margin-left: 7%;               
+    background-color:rgb(47, 65, 91);
+    height: 2px;
+}
+
+
+#container{
+    display:grid;
+    justify-content: center;
+}
+
+#box{
+    overflow: hidden;
+    object-fit: cover;
+    margin-top: 50%;
+    margin-bottom: 35%;
+    width: 23rem;
+    height: 38rem;
+    background-color: rgb(20, 37, 61);
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.img{
+    background-image: url(/images/image-equilibrium.jpg);
+    background-size: 100% 100%;
+    width: 20rem;
+    height: 20rem;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.img:hover{
+    background-image: url(/images/image-equilibrium-hover.png);
+    cursor: pointer;
+}
+
+.nameTag{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 1.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+.nameTag:hover{
+    cursor: pointer;
+    color: #02fdfa;
+}
+
+.description{
+    font-family: 'Outfit', sans-serif;
+    color: grey;
+    text-align: left;
+    margin-left: 1.5rem;
+    width: 19.5rem;
+}
+
+#ethIcon{
+    float:left;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.ethValue{
+    font-family: 'Outfit', sans-serif;
+    color: #02fdfa;
+    float: left;
+    margin-top: 0.8rem;
+    margin-left: 0.2rem;
+}
+
+#clock{
+    margin-top: 1rem;
+    margin-left: 8rem;
+}
+
+.daysLeft{
+    float:right;
+    font-family: 'Outfit', sans-serif;
+    color: grey;
+    margin-top: 0.8rem;
+    margin-right: 1.5rem;
+}
+
+#avatar{
+    float: left;
+    width: 2.5rem;
+    margin-left: 1rem;
+}
+
+.created{
+    font-family: 'Outfit', sans-serif;
+    color: grey;
+    float: left;
+    margin-left: 1rem;
+    margin-top:0.3rem;
+    font-weight: 300;
+}
+
+.spanning{
+    color: white;
+}
+
+.spanning:hover{
+    color: #02fdfa;
+    cursor: pointer;
+}
+
+
+
+#view{
+    display: none;
+}
